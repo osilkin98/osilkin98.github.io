@@ -1,1 +1,10 @@
+title: My Portfolio
+description: This is a culmination of all the things that I've worked on in the past.
+email: o.silkin98@gmail.com
+github_username: osilkin98
+
+show_downloads: true
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+  - github-pages

@@ -39,8 +39,8 @@ description: "This is a culmination of all the things I've worked on"
 ## Projects
 
 <div id='lbry-comments'/>
-##### [LBRY Comments](https://github.com/lbryio/comment-server)
-> Created a RESTful comment system from the ground up and integrated it with the rest of the blockchain stack. [Created a server](https://github.com/lbryio/comment-server) with `aiohttp` and `SQLite` to store and retrieve user data. Then provided functionality in the [lbry-sdk](https://github.com/lbryio/lbry-sdk) to  act as a front-facing API for the server. Designed UI layout for user comments into [lbry-desktop](https://github.com/lbryio/lbry-desktop) using `React` + `Redux`.
+##### [LBRY Comments](https://github.com/lbryio/comment-server/README.md)
+> Created a RESTful comment system from the ground up and integrated it with the rest of the blockchain stack. [Created a server](https://github.com/lbryio/comment-server/README.md) with `aiohttp` and `SQLite` to store and retrieve user data. Then provided functionality in the [lbry-sdk](https://github.com/lbryio/lbry-sdk) to  act as a front-facing API for the server. Designed UI layout for user comments into [lbry-desktop](https://github.com/lbryio/lbry-desktop) using `React` + `Redux`.
 
 <div id='skipsort'/>
 ##### [SkipSort - O(n) Probabilistic Sorting Algorithm](https://github.com/osilkin98/skipsort)

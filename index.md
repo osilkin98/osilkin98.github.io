@@ -1,48 +1,48 @@
 ---
 layout: default
 title: "Oleg Silkin"
-description: "This is a culmination of all the things I've worked on"
+description: "  "
 ---
 
 ## Education
 
-<div id='framingham-state'/>
-##### [**Framingham State University,** *Framingham, MA*](https://www.framingham.edu/)  
-<div id='framingham-state-math'/>
+<div id='framingham-state' />
+##### [**Framingham State University,** *Massachusetts*](https://www.framingham.edu/)  
+<div id='framingham-state-math' />
 ***B.S. Mathematics***    
-*Degree Anticipated: May 2020*  
-> Concentrated on topics related to Quantitative Analysis such as Abstract Algebra, Graph Theory, and Analysis. Spent a lot of time researching the application of Abstract Algebra to create a flexible framework for arbitrary computational models.
+*May 2020*  
+> Studied topics pertaining to Quantitative Analysis such as Abstract Algebra, Graph Theory, and Analysis. A lot of time was constructively spent researching the application of Abstract Algebra to abstract the architecture of computational models.
 
-<div id='framingham-state-cs'/>
+<div id='framingham-state-cs' />
 ***B.S. Computer Science***  
-*Degree Anticipated: May 2020*  
-> Studied the Relational Database model, as well as its mathematical basis in Relational Algebra. Learned how to properly design and implement normalized relational databases in various Database Management Systems.
+*May 2020*  
+> Studied the Relational Database model, and its basis in Mathematics. Designed & implemented a university database, fully normalized in BCNF form.
 
 
 
-<div id='harper-college'/>
+<div id='harper-college' />
 ##### [**Harper College,** *Palatine, IL*](https://www.harpercollege.edu/index.php)  
-<div id='harper-college-degree'/>
+<div id='harper-college-degree'   />
 ***Associates of Engineering***    
 *August 2016 - May 2018*  
-> Focused on learning fundamental topics in Mathematics such as Linear Algebra and Multivariate Calculus that help provide a foundation to many subjects in Computer Science as well as other applied mathematics.  
+> Focused on jamming as many math classes into my schedule as humanly possible.
 
 
 ## Experience
 
 
-##### Full Stack Developer - [***LBRY Inc.***](https://github.com/lbryio)  
-*January 2019 - Current*  
+##### Volunteer Full Stack Development - [***LBRY Inc.***](https://github.com/lbryio)  
+*September 2018 - Current*  
 > Developed user comment system, and integrated into an existing blockchain stack to promote user engagement and increase product value (see [LBRY-Comments](#lbry-comments) for more details). Enforced proper logical-layer schema independence to create the framework to ensure a clean transition when hot-swapping product components.
 
 
 ## Projects
 
-<div id='lbry-comments'/>
+<div id='lbry-comments' />
 ##### [LBRY Comments](https://github.com/lbryio/comment-server/README.md)
 > Created a RESTful comment system from the ground up and integrated it with the rest of the blockchain stack. [Created a server](https://github.com/lbryio/comment-server/README.md) with `aiohttp` and `SQLite` to store and retrieve user data. Then provided functionality in the [lbry-sdk](https://github.com/lbryio/lbry-sdk) to  act as a front-facing API for the server. Designed UI layout for user comments into [lbry-desktop](https://github.com/lbryio/lbry-desktop) using `React` + `Redux`.
 
-<div id='skipsort'/>
+<div id='skipsort' />
 ##### [SkipSort - O(n) Probabilistic Sorting Algorithm](https://github.com/osilkin98/skipsort)
 > Created sorting algorithm with `O(n)` time-complexity for data sets where `|n| < n`,   
 where `|n|` represents the number of unique entries.

@@ -1,5 +1,5 @@
 title: My Portfolio
-description: 
+description:
 email: o.silkin98@gmail.com
 github_username: osilkin98
 
@@ -8,3 +8,7 @@ theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
   - github-pages
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true

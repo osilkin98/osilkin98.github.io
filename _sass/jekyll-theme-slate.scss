@@ -4,6 +4,9 @@
 MeyerWeb Reset
 *******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Martel:200,300,400,600,700,800,900&display=swap');
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,17 +50,19 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  // font-family: 'Martel', serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
+
+
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family: 'Martel', serif;
   letter-spacing: -1px;
   a {
     color: inherit;
@@ -65,33 +70,57 @@ h1, h2, h3, h4, h5, h6 {
       color: blue;
     }
   }
+  em {
+    font-style: oblique 8deg;
+  }
 }
 
 h1 {
-  font-size: 36px;
   font-weight: 700;
+  font-size: 200%;
 }
 
 h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+	font-size: 3.5rem;
+	/* padding-bottom: 0px; */
+  font-family: 'Martel', serif;
+  background-color: #323232;
+	display: inline-block;
+	color: #f2f2f2;
+	margin: 2rem 0rem 0.7rem 0rem;
+	/* padding-inline: 10px; */
+	/* padding-top: 0px; */
+	/* width: 100%; */
+	/* padding-inline: 40px; */
+	vertical-align: baseline;
+	line-height: normal;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 145%;
+  em {
+    font-weight: 500;
+  }
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 125%;
+  font-weight: 500;
+  em {
+    font-weight: 400;
+  }
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 115%;
+  em {
+    font-weight: 400;
+    font-style: oblique 8deg;
+  }
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 110%;
 }
 
 p {
@@ -165,7 +194,6 @@ pre, code {
   background-color: #fff;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
 
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -267,9 +295,48 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
-  margin: 0 auto;
+  padding: 3.4rem 10px;
+  margin: 0 240px;
+  font-size: 1.4rem;
+
+
+  #main_content {
+    padding-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 1090px) {
+      width: 85vw;
+    }
+
+    @media (min-width: 1091px) {
+      width: 80vw;
+    }
+
+    @media (min-width: 1291px) and (max-width: 1480px) {
+      padding-left: 6rem;
+    }
+
+    @media (min-width: 1291px) {
+      padding-right: 2rem;
+    }
+
+    @media (min-width: 1481px) {
+      padding-left: 4rem;
+    }
+  }
+}
+
+.inner #project_title {
+  font-size: 5rem;
+  font-weight: 700;
+  /* text-shadow: #534c4c 0px 0px 10px; */
+  display: inline-block;
+  padding-inline-end: 10px;
+  padding-inline-start: 5px;
+  /* filter: invert(100%); */
+  color: white;
+  background: inherit;
 }
 
 #forkme_banner {
@@ -300,17 +367,10 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
-}
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 5rem;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -361,9 +421,7 @@ Full-Width Styles
   border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
-}
+
 
 #footer_wrap {
   background: #212121;
